@@ -31,7 +31,6 @@ void Parser::startingPars()
 	countingLines();
 	std::cout << "\n lines " << lines << std::endl;
 	separCommands();
-	executingPrintCommands();
 }
 
 void Parser::countingLines()
@@ -68,7 +67,7 @@ void Parser::separCommands()
 	}
 	counter = 0;
 	std::cout << "\nsep commands" << std::endl;
-	/*(auto & arrayOfCommand : arrayOfCommands)
+	/*for(auto & arrayOfCommand : arrayOfCommands)
 		std::cout << arrayOfCommand << std::endl;*/
 }
 

@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(parser
         main.cpp
         Parser.cpp
-        Parser.h)
+        Parser.h Interpretator.cpp Interpretator.h)

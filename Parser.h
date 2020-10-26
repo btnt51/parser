@@ -19,6 +19,7 @@ public:
     void startingPars();
     void countingLines();
     void separCommands();
+	std::vector<std::string> getArrayOfCommands(){ return arrayOfCommands;}
 };
 
 
